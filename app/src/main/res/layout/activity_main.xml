@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="152dp"
+        android:layout_height="54dp"
+        android:background="@drawable/mybutton"
+        android:text="LOGout"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <Button
+        android:id="@+id/addpatients"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:background="@drawable/mybutton"
+        android:text="Add Patient"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <Button
+        android:id="@+id/patients"
+        android:layout_width="157dp"
+        android:layout_height="45dp"
+        android:background="@drawable/mybutton"
+        android:text="Patient"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addpatients"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="189dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mybutton"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/patients"
+        app:layout_constraintTop_toBottomOf="@+id/addpatients"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <Button
+        android:id="@+id/addnote"
+        android:layout_width="155dp"
+        android:layout_height="56dp"
+        android:background="@drawable/mybutton"
+        android:text="Add Note"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/specialremarks"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:background="@drawable/mybutton"
+        android:text="sR"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/vsctbtn"
+        android:layout_width="162dp"
+        android:layout_height="43dp"
+        android:background="@drawable/mybutton"
+        android:text="ADD VS - CT"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <Button
+        android:id="@+id/vsctactivitybtn"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:background="@drawable/mybutton"
+        android:text="VS - CT NOTES"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <Button
+        android:id="@+id/angiogram1"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:background="@drawable/mybutton"
+        android:text="addAngiogram"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <Button
+        android:id="@+id/addangiogram2"
+        android:layout_width="176dp"
+        android:layout_height="54dp"
+        android:background="@drawable/mybutton"
+        android:text="AddAngiogram"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/angiogram1activity"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:background="@drawable/mybutton"
+        android:text="Angiogram"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <Button
+        android:id="@+id/angiogram2activity"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:background="@drawable/mybutton"
+        android:text="Angiogram2"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <Button
+        android:id="@+id/addecho"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:background="@drawable/mybutton"
+        android:text="Add Echo"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <Button
+        android:id="@+id/echo"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:background="@drawable/mybutton"
+        android:text="Echo"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patients"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_bar"
+        android:background="@drawable/ssss"
+        app:itemTextColor="@drawable/slll"
+        app:itemIconTint="@drawable/slll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

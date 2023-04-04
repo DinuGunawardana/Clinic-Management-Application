@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_recyclerview_id"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvuserid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="User Id"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_recyclerview_id" />
+
+        <TextView
+            android:id="@+id/tvangiogram1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Angiogram1"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@id/tvuserid"
+            app:layout_constraintStart_toStartOf="@id/tvuserid"
+            app:layout_constraintTop_toBottomOf="@id/tvuserid" />
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@id/tvangiogram1"
+            app:layout_constraintStart_toStartOf="@id/tvangiogram1"
+            app:layout_constraintTop_toBottomOf="@id/tvangiogram1" />
+
+<!--    <Button-->
+<!--        android:id="@+id/deletebtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DELETE"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/tvdate"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/image_recyclerview_id"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/image_recyclerview_id" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

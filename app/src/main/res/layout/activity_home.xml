@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/grouphomename"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/homeimage"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:background="@drawable/group39" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@drawable/landingpage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/findpatient"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/findpatients"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/patienticon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/patientsicon"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_marginLeft="40dp"
+                android:id="@+id/doctoricon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/providersicon"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/patientcount"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/routunefollowup"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:id="@+id/doctorcount"
+                android:layout_width="100dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:background="@drawable/routunefollowup"
+                android:layout_height="35dp"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/addpatient"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/addpatientsbutton"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_bar"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ssss"
+        app:itemTextColor="@drawable/slll"
+        app:itemIconTint="@drawable/slll"
+        android:clipToPadding="false"/>
+
+</RelativeLayout>
+

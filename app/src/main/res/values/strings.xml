@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ClinicApp</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_relax">Relax</string>
+    <string name="title_challengers">Challengers</string>
+    <string name="title_journal">Journal</string>
+    <string name="title_profile">Profile</string>
+</resources>

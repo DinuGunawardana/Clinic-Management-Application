@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addspecialremarks"
+    tools:context=".AddVSCTRemarks">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_bar_layout"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp">
+
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add VS - CT Remarks"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/pid"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/title_bar_layout"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp">
+
+        <EditText
+            android:id="@+id/patientid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Patient Id"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pid"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp">
+
+<!--        <EditText-->
+<!--            android:id="@+id/notes_title_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginVertical="8dp"-->
+<!--            android:hint="Title"-->
+<!--            android:padding="12dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <EditText
+            android:id="@+id/notes_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:minLines="10"
+            android:hint="Notes"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkupTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp">
+
+        <TextView
+            android:id="@+id/checkupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Up On:"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="30dp"
+        android:id="@+id/dobLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_below="@+id/checkupTextView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="272dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:textSize="14sp"
+            android:backgroundTint="@color/black"
+            android:paddingLeft="15dp"
+            android:text="Check up Date"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_calendar_today_24"/>
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/datebtn1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/checkupTextView"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:paddingLeft="26dp"-->
+<!--        android:paddingRight="26dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/datebtn"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="JAN 01 2022"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/black"-->
+<!--            style="?android:spinnerStyle"/>-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dobLayout"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_bar"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ssss"
+        app:itemTextColor="@drawable/slll"
+        app:itemIconTint="@drawable/slll"
+        android:clipToPadding="false"/>
+
+</RelativeLayout>

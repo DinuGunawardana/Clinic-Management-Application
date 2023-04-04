@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable-v24/mybutton.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/backgroundsearch.xml" value="0.102" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/custom_input.xml" value="0.163" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/gradient1.xml" value="0.145" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/gradient2.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/gradientpatientcard.xml" value="0.113" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/gradientspecialremark.xml" value="0.128" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/gradientvsctremarks.xml" value="0.1445" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_challengers.xml" value="0.126" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_editname_icon.xml" value="0.131" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_email.xml" value="0.103" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.126" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_journal.xml" value="0.126" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_lock.xml" value="0.103" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_profile.xml" value="0.126" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_profile_icon.xml" value="0.131" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ic_relax_face.xml" value="0.126" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/input.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/rounded_corner.xml" value="0.128" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/slll.xml" value="0.1335" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/drawable/ssss.xml" value="0.1335" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_add_agiogram1.xml" value="0.15489130434782608" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_add_angiogram2.xml" value="0.19384057971014493" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_add_echo.xml" value="0.19384057971014493" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_add_patient.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_add_patients.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_add_special_remarks.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_add_vsctremarks.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_angiogram1.xml" value="0.15489130434782608" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_angiogram1_list.xml" value="0.15489130434782608" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_angiogram2_list.xml" value="0.19384057971014493" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_check_angiograms.xml" value="0.20052083333333334" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_check_vsctsr.xml" value="0.20052083333333334" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_echo_list.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_image_discriptions.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_list_angiogram2.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_login_user.xml" value="0.16802536231884058" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_patient.xml" value="0.15806159420289856" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_patients_list.xml" value="0.15715579710144928" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_register_user.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_search_user_recycler_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_special_remarks_notes_rv.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_update.xml" value="0.20052083333333334" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/activity_vsctremarks.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/angiogram1item.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/angiogram2item.xml" value="0.19384057971014493" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/dialog_searchable_spinner.xml" value="0.16802536231884058" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/echoitem.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/item.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/itemangiogram2.xml" value="0.19384057971014493" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/patientlist.xml" value="0.15806159420289856" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/remarkslist.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/layout/vsctitem.xml" value="0.19947916666666668" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/menu/home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/menu/main_menu.xml" value="0.17447916666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/ClinicApp/app/src/main/res/menu/menu_bar.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
